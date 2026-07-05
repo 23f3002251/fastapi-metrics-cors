@@ -49,8 +49,7 @@ def get_stats(values: str = Query(...)):
     total = sum(ints)
     
     return {
-        # IMPORTANT: Replace this with the exact email you use to log into the exam
-        "email": "your-email@example.com", 
+        "email": "23f3002251@ds.study.iitm.ac.in", 
         "count": count,
         "sum": total,
         "min": min(ints),
